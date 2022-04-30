@@ -7,74 +7,117 @@
 	<Outputs></Outputs>
 	<Boxes>
 		<Box>
-			<Identifier>(0x00000143, 0x00001e95)</Identifier>
-			<Name>Epoch average</Name>
-			<AlgorithmClassIdentifier>(0x21283d9f, 0xe76ff640)</AlgorithmClassIdentifier>
+			<Identifier>(0x00003d70, 0x00003eb3)</Identifier>
+			<Name>Signal display</Name>
+			<AlgorithmClassIdentifier>(0x0055be5f, 0x087bdd12)</AlgorithmClassIdentifier>
 			<Inputs>
 				<Input>
 					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input epochs</Name>
+					<Name>Data</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6ab26b81, 0x0f8c02f3)</TypeIdentifier>
+					<Name>Channel Units</Name>
 				</Input>
 			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Averaged epochs</Name>
-				</Output>
-			</Outputs>
 			<Settings>
 				<Setting>
-					<TypeIdentifier>(0x6530bdb1, 0xd057bbfe)</TypeIdentifier>
-					<Name>Averaging type</Name>
-					<DefaultValue>Moving epoch average</DefaultValue>
-					<Value>Moving epoch average</Value>
+					<TypeIdentifier>(0x5de046a6, 0x086340aa)</TypeIdentifier>
+					<Name>Display Mode</Name>
+					<DefaultValue>Scan</DefaultValue>
+					<Value>Scan</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 				<Setting>
-					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
-					<Name>Epoch count</Name>
-					<DefaultValue>4</DefaultValue>
-					<Value>4</Value>
+					<TypeIdentifier>(0x33a30739, 0x00d5299b)</TypeIdentifier>
+					<Name>Auto vertical scale</Name>
+					<DefaultValue>Per channel</DefaultValue>
+					<Value>Per channel</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Scale refresh interval (secs)</Name>
+					<DefaultValue>5</DefaultValue>
+					<Value>5</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Vertical Scale</Name>
+					<DefaultValue>100</DefaultValue>
+					<Value>100</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Vertical Offset</Name>
+					<DefaultValue>0</DefaultValue>
+					<Value>0</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
+					<Name>Time Scale</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Bottom ruler</Name>
+					<DefaultValue>true</DefaultValue>
+					<Value>true</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Left ruler</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Multiview</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>240</Value>
+					<Value>528</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>432</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
-					<Value></Value>
+					<Value>368</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xb73cee83, 0xf7215d60)</Value>
+					<Value>(0x92c056a7, 0x2dc71aff)</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
 					<Value></Value>
 				</Attribute>
 				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>2</Value>
+					<Value>9</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>1</Value>
+					<Value>3</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
 		<Box>
-			<Identifier>(0x000006a1, 0x0000714e)</Identifier>
+			<Identifier>(0x00003ead, 0x00005635)</Identifier>
 			<Name>Acquisition client</Name>
 			<AlgorithmClassIdentifier>(0x35d225cb, 0x3e6e3a5f)</AlgorithmClassIdentifier>
 			<Outputs>
@@ -118,11 +161,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>32</Value>
+					<Value>112</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>192</Value>
+					<Value>368</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -135,254 +178,6 @@
 				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
 					<Value>2</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x0000112e, 0x000002d0)</Identifier>
-			<Name>Time based epoching</Name>
-			<AlgorithmClassIdentifier>(0x00777fa0, 0x5dc3f560)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input signal</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Epoched signal</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch duration (in sec)</Name>
-					<DefaultValue>1</DefaultValue>
-					<Value>1</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Epoch intervals (in sec)</Name>
-					<DefaultValue>0.5</DefaultValue>
-					<Value>0.5</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>320</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>128</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xc5ff41e9, 0xccc59a01)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>2</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x00001132, 0x0000054d)</Identifier>
-			<Name>Identity</Name>
-			<AlgorithmClassIdentifier>(0x5dffe431, 0x35215c50)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input stream 1</Name>
-				</Input>
-				<Input>
-					<Identifier>(0x797c0672, 0xc11efd12)</Identifier>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Input stream 2</Name>
-				</Input>
-				<Input>
-					<Identifier>(0x13aa6bed, 0x9db61c3d)</Identifier>
-					<TypeIdentifier>(0x013df452, 0xa3a8879a)</TypeIdentifier>
-					<Name>Input stream 3</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Output stream 1</Name>
-				</Output>
-				<Output>
-					<Identifier>(0x4fcfa9d6, 0x3f6de372)</Identifier>
-					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Output stream 2</Name>
-				</Output>
-				<Output>
-					<Identifier>(0xe4132900, 0x5f5b596b)</Identifier>
-					<TypeIdentifier>(0x013df452, 0xa3a8879a)</TypeIdentifier>
-					<Name>Output stream 3</Name>
-				</Output>
-			</Outputs>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x17ee7c08, 0x94c14893)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>208</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>128</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0xa8ffe2a3, 0x27038f03)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
-					<Value></Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>1</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xfba64161, 0x65304e21)</Identifier>
-					<Value></Value>
-				</Attribute>
-			</Attributes>
-		</Box>
-		<Box>
-			<Identifier>(0x0000139b, 0x0000478d)</Identifier>
-			<Name>Univariate Statistics</Name>
-			<AlgorithmClassIdentifier>(0x6118159d, 0x600c40b9)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Input Signals</Name>
-				</Input>
-			</Inputs>
-			<Outputs>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Mean</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Variance</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Range</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Median</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>IQR</Name>
-				</Output>
-				<Output>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Percentile</Name>
-				</Output>
-			</Outputs>
-			<Settings>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Mean</Name>
-					<DefaultValue>true</DefaultValue>
-					<Value>true</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Variance</Name>
-					<DefaultValue>true</DefaultValue>
-					<Value>true</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Range</Name>
-					<DefaultValue>true</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Median</Name>
-					<DefaultValue>true</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>IQR</Name>
-					<DefaultValue>true</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Percentile</Name>
-					<DefaultValue>true</DefaultValue>
-					<Value>false</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Percentile value</Name>
-					<DefaultValue>30</DefaultValue>
-					<Value>30</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-			</Settings>
-			<Attributes>
-				<Attribute>
-					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>464</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>128</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x5c760359, 0xa31ab825)</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
-					<Value>6</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>7</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>1</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -414,11 +209,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>384</Value>
+					<Value>400</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>128</Value>
+					<Value>352</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
@@ -451,6 +246,77 @@
 			</Attributes>
 		</Box>
 		<Box>
+			<Identifier>(0x00004504, 0x00006b20)</Identifier>
+			<Name>CSV File Writer</Name>
+			<AlgorithmClassIdentifier>(0x428375e8, 0x325f2db9)</AlgorithmClassIdentifier>
+			<Inputs>
+				<Input>
+					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
+					<Name>Input stream</Name>
+				</Input>
+				<Input>
+					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
+					<Name>Stimulations stream</Name>
+				</Input>
+			</Inputs>
+			<Settings>
+				<Setting>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>record-[$core{date}-$core{time}].csv</DefaultValue>
+					<Value>C:/Users/felixmaldonado/OneDrive - Drexel University/focus-tracker/data/record-[$core{date}-$core{time}].csv</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x007deef9, 0x2f3e95c6)</TypeIdentifier>
+					<Name>Precision</Name>
+					<DefaultValue>10</DefaultValue>
+					<Value>10</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Append data</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+				<Setting>
+					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
+					<Name>Only last matrix</Name>
+					<DefaultValue>false</DefaultValue>
+					<Value>false</Value>
+					<Modifiability>false</Modifiability>
+				</Setting>
+			</Settings>
+			<Attributes>
+				<Attribute>
+					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
+					<Value>544</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
+					<Value>496</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
+					<Value>(0xc33e47e0, 0x70e5f31b)</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
+					<Value></Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
+					<Value>4</Value>
+				</Attribute>
+				<Attribute>
+					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
+					<Value>2</Value>
+				</Attribute>
+			</Attributes>
+		</Box>
+		<Box>
 			<Identifier>(0x00004f62, 0x000026b1)</Identifier>
 			<Name>Signal average</Name>
 			<AlgorithmClassIdentifier>(0x00642c4d, 0x5df7e50a)</AlgorithmClassIdentifier>
@@ -469,11 +335,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>416</Value>
+					<Value>464</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>288</Value>
+					<Value>352</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -490,112 +356,44 @@
 			</Attributes>
 		</Box>
 		<Box>
-			<Identifier>(0x0000503a, 0x00003733)</Identifier>
-			<Name>Signal display</Name>
-			<AlgorithmClassIdentifier>(0x0055be5f, 0x087bdd12)</AlgorithmClassIdentifier>
-			<Inputs>
-				<Input>
-					<TypeIdentifier>(0x5ba36127, 0x195feae1)</TypeIdentifier>
-					<Name>Data</Name>
-				</Input>
-				<Input>
+			<Identifier>(0x00005a70, 0x000003cc)</Identifier>
+			<Name>Keyboard stimulator</Name>
+			<AlgorithmClassIdentifier>(0x00d317b9, 0x6324c3ff)</AlgorithmClassIdentifier>
+			<Outputs>
+				<Output>
 					<TypeIdentifier>(0x6f752dd0, 0x082a321e)</TypeIdentifier>
-					<Name>Stimulations</Name>
-				</Input>
-				<Input>
-					<TypeIdentifier>(0x6ab26b81, 0x0f8c02f3)</TypeIdentifier>
-					<Name>Channel Units</Name>
-				</Input>
-			</Inputs>
+					<Name>Outgoing Stimulations</Name>
+				</Output>
+			</Outputs>
 			<Settings>
 				<Setting>
-					<TypeIdentifier>(0x5de046a6, 0x086340aa)</TypeIdentifier>
-					<Name>Display Mode</Name>
-					<DefaultValue>Scan</DefaultValue>
-					<Value>Scan</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x33a30739, 0x00d5299b)</TypeIdentifier>
-					<Name>Auto vertical scale</Name>
-					<DefaultValue>Per channel</DefaultValue>
-					<Value>Global</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Scale refresh interval (secs)</Name>
-					<DefaultValue>5</DefaultValue>
-					<Value>0.1</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Vertical Scale</Name>
-					<DefaultValue>100</DefaultValue>
-					<Value>1</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Vertical Offset</Name>
-					<DefaultValue>0</DefaultValue>
-					<Value>0</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x512a166f, 0x5c3ef83f)</TypeIdentifier>
-					<Name>Time Scale</Name>
-					<DefaultValue>10</DefaultValue>
-					<Value>60</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Bottom ruler</Name>
-					<DefaultValue>true</DefaultValue>
-					<Value>true</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Left ruler</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>true</Value>
-					<Modifiability>false</Modifiability>
-				</Setting>
-				<Setting>
-					<TypeIdentifier>(0x2cdb2f0b, 0x12f231ea)</TypeIdentifier>
-					<Name>Multiview</Name>
-					<DefaultValue>false</DefaultValue>
-					<Value>false</Value>
+					<TypeIdentifier>(0x330306dd, 0x74a95f98)</TypeIdentifier>
+					<Name>Filename</Name>
+					<DefaultValue>${Path_Data}/plugins/stimulation/simple-keyboard-to-stimulations.txt</DefaultValue>
+					<Value>${Path_Data}/plugins/stimulation/simple-keyboard-to-stimulations.txt</Value>
 					<Modifiability>false</Modifiability>
 				</Setting>
 			</Settings>
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>528</Value>
+					<Value>416</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>448</Value>
+					<Value>560</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
-					<Value>(0x92c056a7, 0x2dc71aff)</Value>
+					<Value>(0x8d89d3b7, 0x8339d210)</Value>
 				</Attribute>
 				<Attribute>
-					<Identifier>(0x527ad68d, 0x16d746a0)</Identifier>
-					<Value></Value>
+					<Identifier>(0xc80ce8af, 0xf699f813)</Identifier>
+					<Value>1</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0xce18836a, 0x9c0eb403)</Identifier>
-					<Value>9</Value>
-				</Attribute>
-				<Attribute>
-					<Identifier>(0xcfad85b0, 0x7c6d841c)</Identifier>
-					<Value>3</Value>
+					<Value>1</Value>
 				</Attribute>
 			</Attributes>
 		</Box>
@@ -648,11 +446,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>320</Value>
+					<Value>336</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>432</Value>
+					<Value>352</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
@@ -722,11 +520,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>96</Value>
+					<Value>208</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>176</Value>
+					<Value>352</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x30a4e5c9, 0x83502953)</Identifier>
@@ -817,11 +615,11 @@
 			<Attributes>
 				<Attribute>
 					<Identifier>(0x1fa7a38f, 0x54edbe0b)</Identifier>
-					<Value>272</Value>
+					<Value>288</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x207c9054, 0x3c841b63)</Identifier>
-					<Value>128</Value>
+					<Value>352</Value>
 				</Attribute>
 				<Attribute>
 					<Identifier>(0x4e7b798a, 0x183beafb)</Identifier>
@@ -844,7 +642,51 @@
 	</Boxes>
 	<Links>
 		<Link>
-			<Identifier>(0x00000201, 0x00000919)</Identifier>
+			<Identifier>(0x0000207d, 0x0000186d)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00006909, 0x000003a6)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000077bf, 0x000071aa)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00003cd0, 0x00007d75)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00006405, 0x00001469)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x000041b5, 0x00001108)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x0000413b, 0x00001ab4)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x000077bf, 0x000071aa)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00006405, 0x00001469)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00004635, 0x00005981)</Identifier>
+			<Source>
+				<BoxIdentifier>(0x00004f62, 0x000026b1)</BoxIdentifier>
+				<BoxOutputIndex>0</BoxOutputIndex>
+			</Source>
+			<Target>
+				<BoxIdentifier>(0x00003d70, 0x00003eb3)</BoxIdentifier>
+				<BoxInputIndex>0</BoxInputIndex>
+			</Target>
+		</Link>
+		<Link>
+			<Identifier>(0x00004a55, 0x0000740a)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x000041b5, 0x00001108)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
@@ -855,64 +697,31 @@
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x000006d4, 0x00001366)</Identifier>
+			<Identifier>(0x0000554f, 0x00003c8e)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x00006909, 0x000003a6)</BoxIdentifier>
+				<BoxIdentifier>(0x00005a70, 0x000003cc)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x00001132, 0x0000054d)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
+				<BoxIdentifier>(0x00004504, 0x00006b20)</BoxIdentifier>
+				<BoxInputIndex>1</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00002aa1, 0x00007b30)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00000143, 0x00001e95)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x00006405, 0x00001469)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x000034c1, 0x0000140c)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000077bf, 0x000071aa)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x0000112e, 0x000002d0)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00005dd2, 0x0000668a)</Identifier>
+			<Identifier>(0x00007471, 0x00006800)</Identifier>
 			<Source>
 				<BoxIdentifier>(0x00004f62, 0x000026b1)</BoxIdentifier>
 				<BoxOutputIndex>0</BoxOutputIndex>
 			</Source>
 			<Target>
-				<BoxIdentifier>(0x00000143, 0x00001e95)</BoxIdentifier>
+				<BoxIdentifier>(0x00004504, 0x00006b20)</BoxIdentifier>
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
 		<Link>
-			<Identifier>(0x00005f38, 0x0000787e)</Identifier>
+			<Identifier>(0x00007a31, 0x00004c44)</Identifier>
 			<Source>
-				<BoxIdentifier>(0x00006405, 0x00001469)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x0000503a, 0x00003733)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00006284, 0x0000291c)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x000006a1, 0x0000714e)</BoxIdentifier>
+				<BoxIdentifier>(0x00003ead, 0x00005635)</BoxIdentifier>
 				<BoxOutputIndex>1</BoxOutputIndex>
 			</Source>
 			<Target>
@@ -920,35 +729,13 @@
 				<BoxInputIndex>0</BoxInputIndex>
 			</Target>
 		</Link>
-		<Link>
-			<Identifier>(0x00006c86, 0x00006d64)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x0000112e, 0x000002d0)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x000041b5, 0x00001108)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
-		<Link>
-			<Identifier>(0x00007dd9, 0x00006d39)</Identifier>
-			<Source>
-				<BoxIdentifier>(0x00001132, 0x0000054d)</BoxIdentifier>
-				<BoxOutputIndex>0</BoxOutputIndex>
-			</Source>
-			<Target>
-				<BoxIdentifier>(0x000077bf, 0x000071aa)</BoxIdentifier>
-				<BoxInputIndex>0</BoxInputIndex>
-			</Target>
-		</Link>
 	</Links>
 	<Comments></Comments>
 	<Metadata>
 		<Entry>
-			<Identifier>(0x00004ecf, 0x00007ae8)</Identifier>
+			<Identifier>(0x00006cd8, 0x00005ef7)</Identifier>
 			<Type>(0x3bcce5d2, 0x43f2d968)</Type>
-			<Data>[{"boxIdentifier":"(0x0000503a, 0x00003733)","childCount":0,"identifier":"(0x00000935, 0x00004b1a)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"height":320,"identifier":"(0x0000704c, 0x000048b5)","name":"Default window","parentIdentifier":"(0xffffffff, 0xffffffff)","type":1,"width":480},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"identifier":"(0x00003880, 0x000066c7)","index":0,"name":"Default tab","parentIdentifier":"(0x0000704c, 0x000048b5)","type":2},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":0,"identifier":"(0x000068e9, 0x000069d0)","index":0,"name":"Empty","parentIdentifier":"(0x00003880, 0x000066c7)","type":0}]</Data>
+			<Data>[{"boxIdentifier":"(0x00005a70, 0x000003cc)","childCount":0,"identifier":"(0x00004f16, 0x00002e53)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0x00003d70, 0x00003eb3)","childCount":0,"identifier":"(0x0000734a, 0x0000411a)","parentIdentifier":"(0xffffffff, 0xffffffff)","type":3},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"height":320,"identifier":"(0x00007aca, 0x00004b48)","name":"Default window","parentIdentifier":"(0xffffffff, 0xffffffff)","type":1,"width":480},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":1,"identifier":"(0x00003183, 0x000044e9)","index":0,"name":"Default tab","parentIdentifier":"(0x00007aca, 0x00004b48)","type":2},{"boxIdentifier":"(0xffffffff, 0xffffffff)","childCount":0,"identifier":"(0x000010d7, 0x00005163)","index":0,"name":"Empty","parentIdentifier":"(0x00003183, 0x000044e9)","type":0}]</Data>
 		</Entry>
 	</Metadata>
 </OpenViBE-Scenario>
