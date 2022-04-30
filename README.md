@@ -14,9 +14,10 @@ that allows the user to quantify times of active focus during their study time, 
 
 -- explain background of EEG -- 
 -- explain use of raspberry pi -- 
-
+# Goal
 The goal of the project is to develop a signal processing pipeline that can be implemented into an inexpensive embedded system, such as a 
 ```Raspberry Pi``` and interface with low-cost ```encephalography (EEG) ``` devices. EEG is a popular brain-imaging tool used to detect electrical activity in the brain. 
+# Methods
 EEG offers high temporal resolution (INPUT RESOLUTION) and relatively high spatial resolution (1-3 cm) for detecting surface or deep brain activation (SOURCE). 
 For this project the team tested the processing pipeline with a ```Unicorn Hybrid Black 8-Channel``` headset and connected to OpenVibe via the 
 ```Lab Streaming Layer (LSL)``` LSL is a network communications protocol that sends streamed data to network and allows for multiple clients to connect and 
