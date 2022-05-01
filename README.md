@@ -4,6 +4,8 @@
 
 **Date:** April 30 - May 1, 2022
 
+![alt text](http://url/to/img.png)
+
 
 # Table of Contents
 - [Background](#Background)
