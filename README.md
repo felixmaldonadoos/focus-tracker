@@ -31,10 +31,9 @@ This project utilizes EEG data and ```OpenVibe```, an open-source brain computer
 
 EEG offers high temporal resolution (~1 ms) and relatively high spatial resolution (1-3 cm) for detecting surface or deep brain activation (SOURCE). 
 For this project the team tested the processing pipeline with an ```8-channel``` Unicorn EEG with ```fs = 250 Hz ``` ([product](https://www.unicorn-bi.com/?gclid=Cj0KCQjwvLOTBhCJARIsACVldV1YNGgvgl_TGRFygCgsKmpA0AnJjArZZoUj_heLh7hWoNSNNysdkY8aAhaFEALw_wcB)) and connected to OpenVibe via LSL. Many EEG headsets are compatible with LSL, including the OpenBCI platforms. 
-# System
+# Results
 
--- INSERT IMG OPENVIBE SCENARIO -- 
--- ADD EEG SAMPLE AND SETUP --
+![](data/output.png)
 
 ## Applications
 
