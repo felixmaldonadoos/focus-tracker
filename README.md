@@ -41,7 +41,11 @@ For this project the team tested the processing pipeline with an ```8-channel```
 - Instructor-Student Engagement: Attention span in real-world classroom scenarios may be studied with EEG to gain a better understanding students' learning process after extended periods of time in different scenarios. Light-weight and non-invasive brain imaging may be used to understand the relationship between the learning environment, individual who is learning, or instructor to sustained attention. Research studies [https://www.frontiersin.org/articles/10.3389/fnhum.2017.00388/full] have proposed the implementation of EEG imaging to study alertness in classroom scenario. Long-term attention in children have yet to be studied in detail, introducing an opportunity to implement brain imaging with other behavioral analysis techniques to gain better understanding of how learning and attention work in a real-world environment. 
 - Teaching Engagement:  
 - Marketing: Behavior patterns in marketing have been widely used in supermarkets and retailers to study consumer behavioral patterns in order to tarket specific items by studying frequently traversed isled (in a supermarket, for example) or studying consumer eye movement to optimize item placement (such as chocolate in eye-level). Many studies rely on behavioral patterns, but have yet to introduce neural imaging to aid marketing research. There is strong evidence to support EEG brain imaging to highlight unconscious consumer behaviors for market research. [https://www.frontiersin.org/articles/10.3389/fnins.2020.594566/full]  
+- 
 ## Future Work
+
+Create a full app that people can install on their devices and use to get personalized learning patterns. Get more data in different scenarios (ex. studying with friends, listening to music, different time of the day and year, etc.). Quantify different levels of focus beyond visualization techniques, and improve real-time feedback to the user. 
+
 ## Sources
 
 Ayaz, Hasan, et al. “Optical Brain Monitoring for Operator Training and Mental Workload Assessment.” NeuroImage, vol. 59, no. 1, Academic Press, Jan. 2012, pp. 36–47, doi:10.1016/J.NEUROIMAGE.2011.06.023.
