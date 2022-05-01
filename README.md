@@ -4,7 +4,7 @@
 
 **Date:** April 30 - May 1, 2022
 
-![](GetFocus.png)
+![](GetFocus.jpeg)
 
 
 # Table of Contents
