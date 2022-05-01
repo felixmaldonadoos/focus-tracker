@@ -22,7 +22,7 @@ study breaks after 25 or 52 minutes of studying, Pomodoro and Desktime respectiv
 
 A challenge with this lacking personalized study methodologies. With digital distractions being introduced by remote work, common study patterns may not 
 work effectively and apply to everyone, leading to anxiety buildup and burnout (SOURCE). The goal of our project is to develop a signal processing pipeline 
-that allows the user to quantify times of active focus during their study time, to maximize learning and decrease stress and burnout. 
+that allows the user to quantify times of active focus during their study/training time, to maximize learning and decrease stress and burnout. 
 
 ## Goal
 The goal of the project is to develop a signal processing pipeline that can be implemented into an inexpensive embedded system, such as a 
