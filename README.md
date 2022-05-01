@@ -10,7 +10,7 @@ Date: April 30 - May 1, 2022
 - [Goal](#Goal)
 - [Methods](#Methods)
 - [Focus Tracker](#focus-tracker)
-- [Implementation](# Implementation)
+- [Implementation](#Implementation)
 - [Future Work](#Future-Work)
 - [Sources](#Sources)
 
