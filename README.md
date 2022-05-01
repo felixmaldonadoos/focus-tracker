@@ -10,7 +10,7 @@ Date: April 30 - May 1, 2022
 - [Goal](#Goal)
 - [Methods](#Methods)
 - [Focus Tracker](#focus-tracker)
-- [Implementation](#Implementation)
+- [Applications](#Applications)
 - [Future Work](#Future-Work)
 - [Sources](#Sources)
 
@@ -42,7 +42,7 @@ For this project the team tested the processing pipeline with a ```Unicorn Hybri
 # focus-tracker
 Develop an EEG platform and user-interface that allows 
 
-# Implementation
+# Applications
 # Future Work
 # Sources
 [1]
