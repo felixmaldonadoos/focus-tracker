@@ -1,13 +1,18 @@
 Authors: Mario De Lorenzo, Felix Maldonado Osorio
 
-Date Created: April 30, 2022
+Affiliation: Drexel Hackathon 2022
+
+Date: April 30 - May 1, 2022
 
 
 # Table of Contents
-1. [Background](#Background)
-2. [Goal](#Goal)
-3. [Methods](#Methods)
-4. [Focus Tracker](#focus tracker)
+- [Background](#Background)
+- [Goal](#Goal)
+- [Methods](#Methods)
+- [Focus Tracker](#focus-tracker)
+- [Implementation](# Implementation)
+- [Future Work](#Future-Work)
+- [Sources](#Sources)
 
 # Background 
 
