@@ -1,4 +1,4 @@
-**Authors:** Mario De Lorenzo, Felix Maldonado Osorio
+**Authors:** Mario De Lorenzo, Felix Maldonado Osorio, Emma Dryden
 
 **Affiliation:** Drexel Hackathon 2022
 
