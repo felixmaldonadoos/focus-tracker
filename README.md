@@ -35,7 +35,7 @@ For this project the team tested the processing pipeline with an ```8-channel```
 
 The data was processed in OpenVibe and streamed to Python for visualization. The figure below shows the output of our system. The red line represents focused reading trial and the blue line represents unfocused or distracted trial. Focused data is distinguished by its higher amplitude behavior, compared to unfocused trials, which had  significantly lower average over time. Unfocused data was nearly 0 because of the moving average temporal filter, which transforms the data and slowly converges to baseline (ideally, if completely focused). This innovative software tool was successfully able to distinguish between focused and unfocused trials when subject was prompted to read at different environments. 
 
-![](data/output.png)
+![](output.png)
 
 ## Applications
 
