@@ -11,7 +11,7 @@
 - [Background](#Background)
 - [Goal](#Goal)
 - [Methods](#Methods)
-- [System](#System)
+- [Results](#Results)
 - [Applications](#Applications)
 - [Future Work](#Future-Work)
 - [Sources](#Sources)
@@ -32,6 +32,8 @@ This project utilizes EEG data and ```OpenVibe```, an open-source brain computer
 EEG offers high temporal resolution (~1 ms) and relatively high spatial resolution (1-3 cm) for detecting surface or deep brain activation (SOURCE). 
 For this project the team tested the processing pipeline with an ```8-channel``` Unicorn EEG with ```fs = 250 Hz ``` ([product](https://www.unicorn-bi.com/?gclid=Cj0KCQjwvLOTBhCJARIsACVldV1YNGgvgl_TGRFygCgsKmpA0AnJjArZZoUj_heLh7hWoNSNNysdkY8aAhaFEALw_wcB)) and connected to OpenVibe via LSL. Many EEG headsets are compatible with LSL, including the OpenBCI platforms. 
 # Results
+
+The data was processed in OpenVibe and streamed to Python for visualization. The figure below shows the output of our system. The red line represents focused reading trial and the blue line represents unfocused or distracted trial. Focused data is distinguished by its higher amplitude behavior, compared to unfocused trials, which had  significantly lower average over time. Unfocused data was nearly 0 because of the moving average temporal filter, which transforms the data and slowly converges to baseline (ideally, if completely focused). This innovative software tool was successfully able to distinguish between focused and unfocused trials. 
 
 ![](data/output.png)
 
