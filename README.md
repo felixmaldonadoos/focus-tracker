@@ -43,6 +43,12 @@ For this project the team tested the processing pipeline with an ```8-channel```
 - Marketing: Behavior patterns in marketing have been widely used in supermarkets and retailers to study consumer behavioral patterns in order to tarket specific items by studying frequently traversed isled (in a supermarket, for example) or studying consumer eye movement to optimize item placement (such as chocolate in eye-level). Many studies rely on behavioral patterns, but have yet to introduce neural imaging to aid marketing research. There is strong evidence to support EEG brain imaging to highlight unconscious consumer behaviors for market research. [https://www.frontiersin.org/articles/10.3389/fnins.2020.594566/full]  
 ## Future Work
 ## Sources
-[1]
-[2] 
+
+Ayaz, Hasan, et al. “Optical Brain Monitoring for Operator Training and Mental Workload Assessment.” NeuroImage, vol. 59, no. 1, Academic Press, Jan. 2012, pp. 36–47, doi:10.1016/J.NEUROIMAGE.2011.06.023.
+
+Liu, Yichuan, et al. “Mental Workload Classification with Concurrent Electroencephalography and Functional Near-Infrared Spectroscopy.” Http://Dx.Doi.Org/10.1080/2326263X.2017.1304020, vol. 4, no. 3, Taylor & Francis, July 2017, pp. 175–85, doi:10.1080/2326263X.2017.1304020.
+
+Liu, Yichuan, et al. “Multisubject ‘Learning’ for Mental Workload Classification Using Concurrent EEG, FNIRS, and Physiological Measures.” Frontiers in Human Neuroscience, vol. 11, Frontiers Media S. A, July 2017, p. 389, doi:10.3389/FNHUM.2017.00389/BIBTEX.
+
+Saadati, Marjan, et al. “Application of Recurrent Convolutional Neural Networks for Mental Workload Assessment Using Functional Near-Infrared Spectroscopy.” Lecture Notes in Networks and Systems, vol. 259, Springer Science and Business Media Deutschland GmbH, 2021, pp. 106–13, doi:10.1007/978-3-030-80285-1_13.
 
